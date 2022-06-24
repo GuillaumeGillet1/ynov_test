@@ -30,7 +30,7 @@ def check_if_password_valid(password):
         return False
     if check_if_maj(password) == False:
         return False
-    if check_if_special_char(password) == False:
+    if check_if_special_char(password) == True:
         return False
     return True
 
