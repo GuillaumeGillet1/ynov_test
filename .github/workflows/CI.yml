@@ -10,4 +10,13 @@ jobs:
           pip install pytest
           pytest
 
+      - name: build
+        run: |
+          docker build -t testYnov .
+
+      - name: run
+        run: |
+          docker run testYnov
+
+
 
