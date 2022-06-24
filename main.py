@@ -10,7 +10,7 @@ def check_invalid_special_char(password):
         if c in ['@', '=', '+', ' ']:
             return False
     return True
-
+# Commentaire
 def check_if_maj(password):
     for c in password:
         if c.isupper():
